@@ -2,25 +2,23 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #334155;
 }
 
 @theme inline {
+  /* Arctic Climatizacao Color Palette */
+  --color-arctic: #0EA5E9;
+  --color-arctic-deep: #0369A1;
+  --color-arctic-ice: #E0F2FE;
+
+  --color-mint: #10B981;
+  --color-mint-light: #D1FAE5;
+  --color-mint-dark: #065F46;
+
+  --color-whatsapp: #25D366;
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  --font-sans: var(--font-poppins);
 }
